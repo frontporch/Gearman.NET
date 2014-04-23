@@ -22,7 +22,7 @@ A Gearman powered application consists of three parts: a client, a worker, and a
       System.Threading.Thread.Sleep(1000);
   }
 ```
-the client and worker APIs (along with the job server) deal with the job management and network communication so you can focus on the application parts. There a few different ways you can run jobs in Gearman, including background for asynchronous processing and prioritized jobs.
+The client and worker APIs (along with the job server) deal with the job management and network communication so you can focus on the application parts. There a few different ways you can run jobs in Gearman, including background for asynchronous processing and prioritized jobs.
 
 ### License
 
